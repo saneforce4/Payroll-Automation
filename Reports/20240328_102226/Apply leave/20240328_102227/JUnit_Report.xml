@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Apply leave" time="185.499" tests="3" failures="0" errors="0">
+   <testsuite name="Apply leave" tests="3" failures="0" errors="0" time="185.499" skipped="0" timestamp="28-03-2024T10:22:35" hostname="91957 - Lead-Force-CRM" id="Test Suites/Apply leave">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\91957\\Desktop\\Automation Testing - Katalon\\Payroll Web\\Reports\\20240328_102226\\Apply leave\\20240328_102227"/>
+         <property name="logFiles" value="C:\\Users\\91957\\Desktop\\Automation Testing - Katalon\\Payroll Web\\Reports\\20240328_102226\\Apply leave\\20240328_102227\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="91957 - Lead-Force-CRM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 123.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.70"/>
+         <property name="sessionId" value="b0d1eedd0dabd954d4c5859dc9dde1dd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Apply Full day Leave" time="73.128" classname="Test Cases/Apply Full day Leave" status="PASSED">
+         <system-out><![CDATA[28-03-2024T10:22:35 - [TEST_CASE][PASSED] - Test Cases/Apply Full day Leave: Test Cases/Apply Full day Leave
+
+28-03-2024T10:22:36 - [TEST_STEP][PASSED] - Data = findTestData("Apply Full day Leave"): null
+
+28-03-2024T10:22:36 - [TEST_STEP][PASSED] - dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy): null
+
+28-03-2024T10:22:36 - [TEST_STEP][PASSED] - currentDate = getInstance().getTime(): null
+
+28-03-2024T10:22:36 - [TEST_STEP][PASSED] - currentDateStr = dateFormat.format(currentDate): null
+
+28-03-2024T10:22:36 - [TEST_STEP][PASSED] - for ([i = 1, i <= Data.getRowNumbers(), (i++)]): Browser is closed
+
+28-03-2024T10:22:36 - [TEST_STEP][PASSED] - url = Data.getValue("URL", i): null
+
+28-03-2024T10:22:36 - [TEST_STEP][PASSED] - username = Data.getValue("Username", i): null
+
+28-03-2024T10:22:36 - [TEST_STEP][PASSED] - password = Data.getValue("Password", i): null
+
+28-03-2024T10:22:36 - [TEST_STEP][PASSED] - LeaveRemarks = Data.getValue("LeaveRemark", i): null
+
+28-03-2024T10:22:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-03-2024T10:22:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-03-2024T10:22:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-03-2024T10:22:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-03-2024T10:22:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-03-2024T10:22:40 - [MESSAGE][PASSED] - Current window maximized
+
+28-03-2024T10:22:40 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://testing.2growhr.io/' successfully
+
+28-03-2024T10:22:44 - [MESSAGE][PASSED] - Navigate to 'http://testing.2growhr.io/' successfully
+
+28-03-2024T10:22:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/UserName"), username): Text 'CBS0674' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+28-03-2024T10:22:44 - [MESSAGE][PASSED] - Text 'CBS0674' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+28-03-2024T10:22:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/Password"), password): Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+28-03-2024T10:22:45 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+28-03-2024T10:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Password - view icon")): Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+28-03-2024T10:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+28-03-2024T10:22:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:22:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:22:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Login Button")): Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+28-03-2024T10:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+28-03-2024T10:23:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:23:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:23:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/a_Reports_nav-link menu-link d-none d-md-block")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Reports_nav-link menu-link d-none d-md-block' is clicked on
+
+28-03-2024T10:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Reports_nav-link menu-link d-none d-md-block' is clicked on
+
+28-03-2024T10:23:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave' is clicked on
+
+28-03-2024T10:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave' is clicked on
+
+28-03-2024T10:23:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:23:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:23:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave Form")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave Form' is clicked on
+
+28-03-2024T10:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave Form' is clicked on
+
+28-03-2024T10:23:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/div_----Select----")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/div_----Select----' is clicked on
+
+28-03-2024T10:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/div_----Select----' is clicked on
+
+28-03-2024T10:23:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/span_Mounika m  (CBS0679)")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/span_Mounika m  (CBS0679)' is clicked on
+
+28-03-2024T10:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/span_Mounika m  (CBS0679)' is clicked on
+
+28-03-2024T10:23:27 - [TEST_STEP][PASSED] - LeaveType = getWebDriver().findElement(By.xpath("//*[@id="layout-wrapper"]/div[15]/div/div/div/div[1]/div/div[3]/form/div[1]/div[1]/div[2]/div/div/button")): null
+
+28-03-2024T10:23:28 - [TEST_STEP][PASSED] - LeaveType.click(): null
+
+28-03-2024T10:23:28 - [TEST_STEP][PASSED] - SelectLeaveType = getWebDriver().findElement(By.xpath("//*[@id="bs-select-4-9"]")): null
+
+28-03-2024T10:23:28 - [TEST_STEP][PASSED] - SelectLeaveType.click(): null
+
+28-03-2024T10:23:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/textarea__Reason"), LeaveRemarks + "" + currentDateStr): Text 'Full day Leave on 03/28/2024' is set on object 'Object Repository/Leave/Page_2GrowHr - Attendance/textarea__Reason'
+
+28-03-2024T10:23:31 - [MESSAGE][PASSED] - Text 'Full day Leave on 03/28/2024' is set on object 'Object Repository/Leave/Page_2GrowHr - Attendance/textarea__Reason'
+
+28-03-2024T10:23:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:23:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:23:33 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/select_Full DayHalf Day"), 10): Scroll to object 'Object Repository/Leave/Page_2GrowHr - Attendance/select_Full DayHalf Day' successfully
+
+28-03-2024T10:23:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Leave/Page_2GrowHr - Attendance/select_Full DayHalf Day' successfully
+
+28-03-2024T10:23:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:23:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave History")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave History' is clicked on
+
+28-03-2024T10:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave History' is clicked on
+
+28-03-2024T10:23:38 - [TEST_STEP][PASSED] - ReportRange = getWebDriver().findElement(By.xpath("//*[@id="reportrange"]")): null
+
+28-03-2024T10:23:40 - [TEST_STEP][PASSED] - ReportRange.click(): null
+
+28-03-2024T10:23:40 - [TEST_STEP][PASSED] - TodayReport = getWebDriver().findElement(By.xpath("//*[@id="myDIV1"]/div[2]/div[1]/ul/li[1]")): null
+
+28-03-2024T10:23:40 - [TEST_STEP][PASSED] - TodayReport.click(): null
+
+28-03-2024T10:23:40 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+28-03-2024T10:23:44 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+28-03-2024T10:23:44 - [TEST_STEP][PASSED] - Logout = getWebDriver().findElement(By.xpath("//a[@class="nav-link" and @href="/Home/LogOut"]")): null
+
+28-03-2024T10:23:45 - [TEST_STEP][PASSED] - Logout.click(): null
+
+28-03-2024T10:23:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:23:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:23:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-03-2024T10:23:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Apply 1st half Leave" time="53.877" classname="Test Cases/Apply 1st half Leave" status="PASSED">
+         <system-out><![CDATA[28-03-2024T10:23:48 - [TEST_CASE][PASSED] - Test Cases/Apply 1st half Leave: Test Cases/Apply 1st half Leave
+
+28-03-2024T10:23:49 - [TEST_STEP][PASSED] - Data = findTestData("Apply 1st Half Leave"): null
+
+28-03-2024T10:23:49 - [TEST_STEP][PASSED] - dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy): null
+
+28-03-2024T10:23:49 - [TEST_STEP][PASSED] - currentDate = getInstance().getTime(): null
+
+28-03-2024T10:23:49 - [TEST_STEP][PASSED] - currentDateStr = dateFormat.format(currentDate): null
+
+28-03-2024T10:23:49 - [TEST_STEP][PASSED] - for ([i = 1, i <= Data.getRowNumbers(), (i++)]): Browser is closed
+
+28-03-2024T10:23:49 - [TEST_STEP][PASSED] - url = Data.getValue("URL", i): null
+
+28-03-2024T10:23:49 - [TEST_STEP][PASSED] - username = Data.getValue("Username", i): null
+
+28-03-2024T10:23:49 - [TEST_STEP][PASSED] - password = Data.getValue("Password", i): null
+
+28-03-2024T10:23:49 - [TEST_STEP][PASSED] - LeaveRemarks = Data.getValue("LeaveRemark", i): null
+
+28-03-2024T10:23:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-03-2024T10:23:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-03-2024T10:23:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-03-2024T10:23:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-03-2024T10:23:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-03-2024T10:23:50 - [MESSAGE][PASSED] - Current window maximized
+
+28-03-2024T10:23:50 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://testing.2growhr.io/' successfully
+
+28-03-2024T10:23:56 - [MESSAGE][PASSED] - Navigate to 'http://testing.2growhr.io/' successfully
+
+28-03-2024T10:23:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/UserName"), username): Text 'CBS3283' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+28-03-2024T10:23:57 - [MESSAGE][PASSED] - Text 'CBS3283' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+28-03-2024T10:23:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/Password"), password): Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+28-03-2024T10:23:57 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+28-03-2024T10:23:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Password - view icon")): Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+28-03-2024T10:23:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+28-03-2024T10:23:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:24:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:24:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Login Button")): Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+28-03-2024T10:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+28-03-2024T10:24:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:24:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:24:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/a_Reports_nav-link menu-link d-none d-md-block")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Reports_nav-link menu-link d-none d-md-block' is clicked on
+
+28-03-2024T10:24:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Reports_nav-link menu-link d-none d-md-block' is clicked on
+
+28-03-2024T10:24:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave' is clicked on
+
+28-03-2024T10:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave' is clicked on
+
+28-03-2024T10:24:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:24:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:24:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave Form")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave Form' is clicked on
+
+28-03-2024T10:24:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave Form' is clicked on
+
+28-03-2024T10:24:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/div_----Select----")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/div_----Select----' is clicked on
+
+28-03-2024T10:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/div_----Select----' is clicked on
+
+28-03-2024T10:24:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/span_Mounika m  (CBS0679)")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/span_Mounika m  (CBS0679)' is clicked on
+
+28-03-2024T10:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/span_Mounika m  (CBS0679)' is clicked on
+
+28-03-2024T10:24:21 - [TEST_STEP][PASSED] - LeaveType = getWebDriver().findElement(By.xpath("//*[@id="layout-wrapper"]/div[15]/div/div/div/div[1]/div/div[3]/form/div[1]/div[1]/div[2]/div/div/button")): null
+
+28-03-2024T10:24:22 - [TEST_STEP][PASSED] - LeaveType.click(): null
+
+28-03-2024T10:24:22 - [TEST_STEP][PASSED] - SelectLeaveType = getWebDriver().findElement(By.xpath("//*[@id="bs-select-4-9"]")): null
+
+28-03-2024T10:24:22 - [TEST_STEP][PASSED] - SelectLeaveType.click(): null
+
+28-03-2024T10:24:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/select_Full DayHalf Day"), "Half Day", true): All options with value 'Half Day' are selected in object 'Object Repository/Leave/Page_2GrowHr - Attendance/select_Full DayHalf Day'  using regular expression
+
+28-03-2024T10:24:25 - [MESSAGE][PASSED] - All options with value 'Half Day' are selected in object 'Object Repository/Leave/Page_2GrowHr - Attendance/select_Full DayHalf Day'  using regular expression
+
+28-03-2024T10:24:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/select_1 Half2 Half"), "1", true): All options with value '1' are selected in object 'Object Repository/Leave/Page_2GrowHr - Attendance/select_1 Half2 Half'  using regular expression
+
+28-03-2024T10:24:26 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Leave/Page_2GrowHr - Attendance/select_1 Half2 Half'  using regular expression
+
+28-03-2024T10:24:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/textarea__Reason"), LeaveRemarks + "" + currentDateStr): Text '1st Half Leave on 03/28/2024' is set on object 'Object Repository/Leave/Page_2GrowHr - Attendance/textarea__Reason'
+
+28-03-2024T10:24:26 - [MESSAGE][PASSED] - Text '1st Half Leave on 03/28/2024' is set on object 'Object Repository/Leave/Page_2GrowHr - Attendance/textarea__Reason'
+
+28-03-2024T10:24:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:24:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:24:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/textarea__Reason"), 10): Scroll to object 'Object Repository/Leave/Page_2GrowHr - Attendance/textarea__Reason' successfully
+
+28-03-2024T10:24:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Leave/Page_2GrowHr - Attendance/textarea__Reason' successfully
+
+28-03-2024T10:24:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:24:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:24:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave History")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave History' is clicked on
+
+28-03-2024T10:24:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave History' is clicked on
+
+28-03-2024T10:24:33 - [TEST_STEP][PASSED] - ReportRange = getWebDriver().findElement(By.xpath("//*[@id="reportrange"]")): null
+
+28-03-2024T10:24:34 - [TEST_STEP][PASSED] - ReportRange.click(): null
+
+28-03-2024T10:24:34 - [TEST_STEP][PASSED] - TodayReport = getWebDriver().findElement(By.xpath("//*[@id="myDIV1"]/div[2]/div[1]/ul/li[1]")): null
+
+28-03-2024T10:24:35 - [TEST_STEP][PASSED] - TodayReport.click(): null
+
+28-03-2024T10:24:35 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+28-03-2024T10:24:39 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+28-03-2024T10:24:39 - [TEST_STEP][PASSED] - Logout = getWebDriver().findElement(By.xpath("//a[@class="nav-link" and @href="/Home/LogOut"]")): null
+
+28-03-2024T10:24:39 - [TEST_STEP][PASSED] - Logout.click(): null
+
+28-03-2024T10:24:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:24:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:24:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-03-2024T10:24:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Apply 2nd Half Leave" time="58.285" classname="Test Cases/Apply 2nd Half Leave" status="PASSED">
+         <system-out><![CDATA[28-03-2024T10:24:42 - [TEST_CASE][PASSED] - Test Cases/Apply 2nd Half Leave: Test Cases/Apply 2nd Half Leave
+
+28-03-2024T10:24:42 - [TEST_STEP][PASSED] - Data = findTestData("Apply 2nd Half Leave"): null
+
+28-03-2024T10:24:42 - [TEST_STEP][PASSED] - dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy): null
+
+28-03-2024T10:24:42 - [TEST_STEP][PASSED] - currentDate = getInstance().getTime(): null
+
+28-03-2024T10:24:42 - [TEST_STEP][PASSED] - currentDateStr = dateFormat.format(currentDate): null
+
+28-03-2024T10:24:42 - [TEST_STEP][PASSED] - for ([i = 1, i <= Data.getRowNumbers(), (i++)]): Browser is closed
+
+28-03-2024T10:24:42 - [TEST_STEP][PASSED] - url = Data.getValue("URL", i): null
+
+28-03-2024T10:24:42 - [TEST_STEP][PASSED] - username = Data.getValue("Username", i): null
+
+28-03-2024T10:24:42 - [TEST_STEP][PASSED] - password = Data.getValue("Password", i): null
+
+28-03-2024T10:24:42 - [TEST_STEP][PASSED] - LeaveRemarks = Data.getValue("LeaveRemark", i): null
+
+28-03-2024T10:24:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-03-2024T10:24:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-03-2024T10:24:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-03-2024T10:24:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-03-2024T10:24:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-03-2024T10:24:43 - [MESSAGE][PASSED] - Current window maximized
+
+28-03-2024T10:24:43 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://testing.2growhr.io/' successfully
+
+28-03-2024T10:24:47 - [MESSAGE][PASSED] - Navigate to 'http://testing.2growhr.io/' successfully
+
+28-03-2024T10:24:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/UserName"), username): Text 'CBS0450035' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+28-03-2024T10:24:48 - [MESSAGE][PASSED] - Text 'CBS0450035' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+28-03-2024T10:24:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/Password"), password): Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+28-03-2024T10:24:49 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+28-03-2024T10:24:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Password - view icon")): Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+28-03-2024T10:24:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+28-03-2024T10:24:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:24:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:24:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Login Button")): Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+28-03-2024T10:25:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+28-03-2024T10:25:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:25:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:25:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/a_Reports_nav-link menu-link d-none d-md-block")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Reports_nav-link menu-link d-none d-md-block' is clicked on
+
+28-03-2024T10:25:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Reports_nav-link menu-link d-none d-md-block' is clicked on
+
+28-03-2024T10:25:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave' is clicked on
+
+28-03-2024T10:25:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave' is clicked on
+
+28-03-2024T10:25:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:25:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:25:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave Form")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave Form' is clicked on
+
+28-03-2024T10:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave Form' is clicked on
+
+28-03-2024T10:25:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/div_----Select----")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/div_----Select----' is clicked on
+
+28-03-2024T10:25:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/div_----Select----' is clicked on
+
+28-03-2024T10:25:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/span_Mounika m  (CBS0679)")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/span_Mounika m  (CBS0679)' is clicked on
+
+28-03-2024T10:25:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/span_Mounika m  (CBS0679)' is clicked on
+
+28-03-2024T10:25:18 - [TEST_STEP][PASSED] - LeaveType = getWebDriver().findElement(By.xpath("//*[@id="layout-wrapper"]/div[15]/div/div/div/div[1]/div/div[3]/form/div[1]/div[1]/div[2]/div/div/button")): null
+
+28-03-2024T10:25:19 - [TEST_STEP][PASSED] - LeaveType.click(): null
+
+28-03-2024T10:25:19 - [TEST_STEP][PASSED] - SelectLeaveType = getWebDriver().findElement(By.xpath("//*[@id="bs-select-4-9"]")): null
+
+28-03-2024T10:25:19 - [TEST_STEP][PASSED] - SelectLeaveType.click(): null
+
+28-03-2024T10:25:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/select_Full DayHalf Day"), "Half Day", true): All options with value 'Half Day' are selected in object 'Object Repository/Leave/Page_2GrowHr - Attendance/select_Full DayHalf Day'  using regular expression
+
+28-03-2024T10:25:22 - [MESSAGE][PASSED] - All options with value 'Half Day' are selected in object 'Object Repository/Leave/Page_2GrowHr - Attendance/select_Full DayHalf Day'  using regular expression
+
+28-03-2024T10:25:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/select_1 Half2 Half"), "2", true): All options with value '2' are selected in object 'Object Repository/Leave/Page_2GrowHr - Attendance/select_1 Half2 Half'  using regular expression
+
+28-03-2024T10:25:24 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Leave/Page_2GrowHr - Attendance/select_1 Half2 Half'  using regular expression
+
+28-03-2024T10:25:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/textarea__Reason"), LeaveRemarks + "" + currentDateStr): Text '2nd Half Leave on 03/28/2024' is set on object 'Object Repository/Leave/Page_2GrowHr - Attendance/textarea__Reason'
+
+28-03-2024T10:25:24 - [MESSAGE][PASSED] - Text '2nd Half Leave on 03/28/2024' is set on object 'Object Repository/Leave/Page_2GrowHr - Attendance/textarea__Reason'
+
+28-03-2024T10:25:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:25:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:25:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/textarea__Reason"), 10): Scroll to object 'Object Repository/Leave/Page_2GrowHr - Attendance/textarea__Reason' successfully
+
+28-03-2024T10:25:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Leave/Page_2GrowHr - Attendance/textarea__Reason' successfully
+
+28-03-2024T10:25:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:25:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:25:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave History")): Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave History' is clicked on
+
+28-03-2024T10:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave/Page_2GrowHr - Attendance/a_Leave History' is clicked on
+
+28-03-2024T10:25:31 - [TEST_STEP][PASSED] - ReportRange = getWebDriver().findElement(By.xpath("//*[@id="reportrange"]")): null
+
+28-03-2024T10:25:32 - [TEST_STEP][PASSED] - ReportRange.click(): null
+
+28-03-2024T10:25:33 - [TEST_STEP][PASSED] - TodayReport = getWebDriver().findElement(By.xpath("//*[@id="myDIV1"]/div[2]/div[1]/ul/li[1]")): null
+
+28-03-2024T10:25:33 - [TEST_STEP][PASSED] - TodayReport.click(): null
+
+28-03-2024T10:25:33 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+28-03-2024T10:25:37 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+28-03-2024T10:25:37 - [TEST_STEP][PASSED] - Logout = getWebDriver().findElement(By.xpath("//a[@class="nav-link" and @href="/Home/LogOut"]")): null
+
+28-03-2024T10:25:37 - [TEST_STEP][PASSED] - Logout.click(): null
+
+28-03-2024T10:25:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-03-2024T10:25:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-03-2024T10:25:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-03-2024T10:25:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-03-2024T10:22:35 - [TEST_SUITE][PASSED] - Apply leave: Test Cases/Apply 2nd Half Leave]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

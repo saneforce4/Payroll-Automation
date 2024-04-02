@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Export To Excel</name>
+   <tag></tag>
+   <elementGuidId>827603a6-0869-4b3b-a7ee-85f4028b2d87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.px-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='DLtoExcel-2']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a152c547-1b73-4243-bb8d-9f1f44cdb56f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-2</value>
+      <webElementGuid>321b2faf-5c42-463a-aea3-360377fb020a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Export To Excel</value>
+      <webElementGuid>8f747667-39e9-4304-92c3-bd48cb26fc98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;DLtoExcel-2&quot;)/span[@class=&quot;px-2&quot;]</value>
+      <webElementGuid>3978139f-2604-46dd-9855-b973519e66cb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='DLtoExcel-2']/span</value>
+      <webElementGuid>db76d107-3c36-4242-b64f-01f0370686f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[2]/following::span[3]</value>
+      <webElementGuid>7e2b0582-2fc5-4ef2-a5b0-125634f270ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Report'])[1]/following::span[4]</value>
+      <webElementGuid>784e0df8-326e-4458-badc-07793a3f0b6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daywise Attendance'])[1]/preceding::span[1]</value>
+      <webElementGuid>4a6faab2-66fe-4d97-a990-2936b7b89c52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Export To Excel']/parent::*</value>
+      <webElementGuid>fb9fea10-8fe7-41d9-b94b-9aa7bb06b339</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/span</value>
+      <webElementGuid>924ad7f3-0172-4b69-a8c8-0a7fcc39e813</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Export To Excel' or . = 'Export To Excel')]</value>
+      <webElementGuid>5f4dddaa-8db6-466b-8730-8baa3f403f25</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,34 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_2GrowHR - Login/input_Sign in to access 2GrowHR_UserName",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027UserName\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_2GrowHR - Login/input_Sign in to access 2GrowHR_UserName_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_2GrowHR - Login/Page_2GrowHR - Login/input_Sign in to access 2GrowHR_UserName",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027UserName\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_2GrowHR - Login/Page_2GrowHR - Login/input_Sign in to access 2GrowHR_UserName_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_2GrowHr - Real Time Report/View the report",
+      "brokenLocator": "//a[@onclick\u003d\"showempdet(\u0027sathishkumar  k\u0027,\u0027EMP13853\u0027,\u002702/29/2024 \u0027,\u002702/ 29/2024\u0027)\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//table[@id\u003d\u0027datatable\u0027]/tbody/tr/td[2]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_2GrowHr - Real Time Report/View the report_idRelative.png"
+    }
+  ]
+}

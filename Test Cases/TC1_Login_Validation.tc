@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User navigate to Employee details</description>
+   <name>TC1_Login_Validation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8637730-ad86-4ae1-8759-e84efe050780</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img__img-fluid week_calender_icon dp_align_OD</name>
+   <tag></tag>
+   <elementGuidId>ca5bcc9f-0bcb-4f77-9fce-f7cca82d4de4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#idOnDuty > div.modal-content > div.modal-body > div.row.mb-3 > div.col-6 > div.form-group > img.img-fluid.week_calender_icon.dp_align</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='idOnDuty']/div/div[3]/div/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>81a8ced4-a854-452b-8d59-2b6d7b8dda5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/Assests/NewDesign/assets/images/newimg/icons/calender_icon.svg</value>
+      <webElementGuid>87e25877-aff3-4eb5-8642-fc519ec9b499</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-fluid week_calender_icon dp_align</value>
+      <webElementGuid>5723b63a-8c39-4770-b784-379151975843</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;idOnDuty&quot;)/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;row mb-3&quot;]/div[@class=&quot;col-6&quot;]/div[@class=&quot;form-group&quot;]/img[@class=&quot;img-fluid week_calender_icon dp_align&quot;]</value>
+      <webElementGuid>96c2c360-de4a-4c1a-9532-92bf77d7a37f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='idOnDuty']/div/div[3]/div/div/div/img</value>
+      <webElementGuid>e7889d74-2c02-4cfe-9ff3-63a258d1e194</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div/div/div/div[3]/div/div/div/img</value>
+      <webElementGuid>14b9f43d-8411-4416-b43e-a7127b2143c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/Assests/NewDesign/assets/images/newimg/icons/calender_icon.svg']</value>
+      <webElementGuid>6b814a3c-d18b-4366-b685-1f8b67901dec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

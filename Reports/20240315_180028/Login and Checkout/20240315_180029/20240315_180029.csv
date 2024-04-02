@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login and Checkout,Chrome 122.0.0.0,,,15-03-2024 18:00:40,15-03-2024 18:05:25,4m - 44.947s,PASSED
+,,,,,,,
+Test Cases/Checkout and do Logout,Chrome 122.0.0.0,,,15-03-2024 18:00:40,15-03-2024 18:05:25,4m - 44.767s,PASSED
+"Data = findTestData(""Checkout and do logout"")",Chrome 122.0.0.0,,,15-03-2024 18:00:41,15-03-2024 18:00:41,0.443s,PASSED
+dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy),Chrome 122.0.0.0,,,15-03-2024 18:00:41,15-03-2024 18:00:41,0.015s,PASSED
+currentDate = getInstance().getTime(),Chrome 122.0.0.0,,,15-03-2024 18:00:41,15-03-2024 18:00:41,0.013s,PASSED
+currentDateStr = dateFormat.format(currentDate),Chrome 122.0.0.0,,,15-03-2024 18:00:41,15-03-2024 18:00:41,0.003s,PASSED
+"for ([i = 1, i <= Data.getRowNumbers(), (i++)])",Chrome 122.0.0.0,,,15-03-2024 18:00:41,15-03-2024 18:05:25,4m - 43.939s,PASSED

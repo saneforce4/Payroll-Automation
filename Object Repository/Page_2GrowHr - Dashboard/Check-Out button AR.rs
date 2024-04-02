@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Check-Out button AR</name>
+   <tag></tag>
+   <elementGuidId>99eb37d2-f092-4873-9bbc-d066bb917ac0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-outline-danger.btn-sm.me-auto.chkout</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divCheckinOut']/div[2]/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>be122db7-c79e-4f4d-a970-6902eb5cd7e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-outline-danger btn-sm me-auto chkout</value>
+      <webElementGuid>de9cb6f6-57b8-4c97-9fe0-710eeb5fb3e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Check-Out</value>
+      <webElementGuid>e34cb701-e398-404a-859c-304b70a21813</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divCheckinOut&quot;)/div[@class=&quot;dropdown-menu dropdown_align p-3 show&quot;]/div[@class=&quot;text-end mt-3&quot;]/button[@class=&quot;btn btn-outline-danger btn-sm me-auto chkout&quot;]</value>
+      <webElementGuid>0bc9432d-6c8e-48ec-b522-a184e270e71d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divCheckinOut']/div[2]/div/button</value>
+      <webElementGuid>40bb8f4d-977f-4e07-84b3-955a2c07e67f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remarks'])[2]/following::button[1]</value>
+      <webElementGuid>0c3e873f-5e43-4e61-b9b1-769e13f9108b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check-Out'])[1]/following::button[1]</value>
+      <webElementGuid>e3416742-4bdf-4f26-b1fc-c18652d5500b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check-Out'])[3]/preceding::button[1]</value>
+      <webElementGuid>916caec1-50bd-49c0-8dfc-85d8e3fbe17d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remarks'])[3]/preceding::button[2]</value>
+      <webElementGuid>cc17d3db-d237-4e08-ae67-279b14f88f51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/button</value>
+      <webElementGuid>f7e3e864-64cf-48b2-8426-42ab9e20b1d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Check-Out' or . = 'Check-Out')]</value>
+      <webElementGuid>986925d4-8b60-4064-ad0d-df466930dbd8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

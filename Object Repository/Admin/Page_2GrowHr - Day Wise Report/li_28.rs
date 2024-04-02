@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_28</name>
+   <tag></tag>
+   <elementGuidId>652c6dd8-736e-4cea-ab3a-1651eb9c1b33</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.highlighted.picked</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='myDIV1']/div[3]/div[3]/ul[3]/li[33]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>4aded078-df8d-40ea-b947-3b1e6efa186e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>highlighted picked</value>
+      <webElementGuid>7a1ff0b3-88fe-4cc8-9543-9cb7edd3f0fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-view</name>
+      <type>Main</type>
+      <value>day picked</value>
+      <webElementGuid>7ba63493-ee69-401e-bfc0-4e06e54261a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>28</value>
+      <webElementGuid>43232a8b-d959-43d3-ae78-204638a024d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;myDIV1&quot;)/div[@class=&quot;datepicker-container datepicker-dropdown datepicker-top-left&quot;]/div[@class=&quot;datepicker-panel&quot;]/ul[3]/li[@class=&quot;highlighted picked&quot;]</value>
+      <webElementGuid>467e8b57-af2c-4520-93b7-0eb77b7cf7e7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='myDIV1']/div[3]/div[3]/ul[3]/li[33]</value>
+      <webElementGuid>2931d701-f7fc-4561-ae17-e64335df8620</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::li[33]</value>
+      <webElementGuid>3d7baaff-2c26-43a5-b4ab-1ade6f5ae423</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fr'])[1]/following::li[34]</value>
+      <webElementGuid>ec5a48a6-990d-4ef8-b54f-7d38ba865a12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[33]</value>
+      <webElementGuid>b132d55f-f842-4c3c-9e8c-8731cf87c246</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = '28' or . = '28')]</value>
+      <webElementGuid>e6cc951d-68fd-4d0b-9a50-93d3f9c80511</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
