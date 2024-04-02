@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OD checkout,Chrome 122.0.0.0,,,22-03-2024 18:46:25,22-03-2024 18:48:22,1m - 57.149s,PASSED
+,,,,,,,
+Test Cases/OD Checkout,Chrome 122.0.0.0,,,22-03-2024 18:46:25,22-03-2024 18:48:22,1m - 56.985s,PASSED
+"Data = findTestData(""OD Checkout"")",Chrome 122.0.0.0,,,22-03-2024 18:46:25,22-03-2024 18:46:26,0.400s,PASSED
+dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy),Chrome 122.0.0.0,,,22-03-2024 18:46:26,22-03-2024 18:46:26,0.013s,PASSED
+currentDate = getInstance().getTime(),Chrome 122.0.0.0,,,22-03-2024 18:46:26,22-03-2024 18:46:26,0.012s,PASSED
+currentDateStr = dateFormat.format(currentDate),Chrome 122.0.0.0,,,22-03-2024 18:46:26,22-03-2024 18:46:26,0.003s,PASSED
+"for ([i = 1, i <= Data.getRowNumbers(), (i++)])",Chrome 122.0.0.0,,,22-03-2024 18:46:26,22-03-2024 18:48:22,1m - 56.111s,PASSED

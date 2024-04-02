@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Filter_bi bi-three-dots f-20</name>
+   <tag></tag>
+   <elementGuidId>b7469da2-c3f3-4b0f-92f6-1c0955a34653</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.bi.bi-three-dots.f-20</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='excelBtn']/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>0767b5be-dcfd-46fa-aa74-273140ce613e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bi bi-three-dots f-20</value>
+      <webElementGuid>0f703811-aa4b-4427-aad0-2063f75ede1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;excelBtn&quot;)/button[@class=&quot;btn filter_btn show&quot;]/i[@class=&quot;bi bi-three-dots f-20&quot;]</value>
+      <webElementGuid>4c4edffb-3e8e-4cc1-9225-111f2edd204b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='excelBtn']/button/i</value>
+      <webElementGuid>0794240a-afb6-4427-9e05-ee1190c2cfc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/i</value>
+      <webElementGuid>d694410c-d0b9-4ef0-84fb-13416f9e391a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login and Checkin" time="109.85" tests="1" failures="1" errors="0">
+   <testsuite name="Login and Checkin" tests="1" failures="1" errors="0" time="109.85" skipped="0" timestamp="20-03-2024T14:17:05" hostname="91957 - Lead-Force-CRM" id="Test Suites/Login and Checkin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\91957\\Desktop\\Automation Testing - Katalon\\Payroll Web\\Reports\\20240320_141651\\Login and Checkin\\20240320_141652"/>
+         <property name="logFiles" value="C:\\Users\\91957\\Desktop\\Automation Testing - Katalon\\Payroll Web\\Reports\\20240320_141651\\Login and Checkin\\20240320_141652\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\91957\\Desktop\\Automation Testing - Katalon\\Payroll Web\\Reports\\20240320_141651\\Login and Checkin\\20240320_141652\\1710924534798.png"/>
+         <property name="hostName" value="91957 - Lead-Force-CRM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.70"/>
+         <property name="sessionId" value="afbd8964ff4c89a26eacc6d7a6fd9b52"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login and do checkin" time="109.68" classname="Test Cases/Login and do checkin" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login and do checkin FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Farveen' of object 'Object Repository/Page_2GrowHR - Login/UserName'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)&#xa;	at Login and do checkin.run(Login and do checkin:49)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1710924412228.run(TempTestSuite1710924412228.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_2GrowHR - Login/UserName' located by '//input[@id='UserName']' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[20-03-2024T14:17:05 - [TEST_CASE][FAILED] - Test Cases/Login and do checkin: Test Cases/Login and do checkin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Farveen' of object 'Object Repository/Page_2GrowHR - Login/UserName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Login and do checkin.run(Login and do checkin:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710924412228.run(TempTestSuite1710924412228.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_2GrowHR - Login/UserName' located by '//input[@id='UserName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+20-03-2024T14:17:05 - [TEST_STEP][PASSED] - Data = findTestData("Login and Checkin"): null
+
+20-03-2024T14:17:06 - [TEST_STEP][PASSED] - dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy): null
+
+20-03-2024T14:17:06 - [TEST_STEP][PASSED] - currentDate = getInstance().getTime(): null
+
+20-03-2024T14:17:06 - [TEST_STEP][PASSED] - currentDateStr = dateFormat.format(currentDate): null
+
+20-03-2024T14:17:06 - [TEST_STEP][FAILED] - for ([i = 1, i <= Data.getRowNumbers(), (i++)]): Unable to set text 'Farveen' of object 'Object Repository/Page_2GrowHR - Login/UserName' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Farveen' of object 'Object Repository/Page_2GrowHR - Login/UserName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Login and do checkin.run(Login and do checkin:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710924412228.run(TempTestSuite1710924412228.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_2GrowHR - Login/UserName' located by '//input[@id='UserName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1707823348564.run(Script1707823348564.groovy:49)
+	... 15 more
+)
+
+20-03-2024T14:17:06 - [TEST_STEP][PASSED] - url = Data.getValue("URL", i): null
+
+20-03-2024T14:17:06 - [TEST_STEP][PASSED] - username = Data.getValue("Username", i): null
+
+20-03-2024T14:17:06 - [TEST_STEP][PASSED] - password = Data.getValue("Password", i): null
+
+20-03-2024T14:17:06 - [TEST_STEP][PASSED] - checkinRemark = Data.getValue("CheckinRemark", i): null
+
+20-03-2024T14:17:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2024T14:17:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-03-2024T14:17:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2024T14:17:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2024T14:17:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-03-2024T14:17:09 - [MESSAGE][PASSED] - Current window maximized
+
+20-03-2024T14:17:09 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://testing.2growhr.io/' successfully
+
+20-03-2024T14:17:11 - [MESSAGE][PASSED] - Navigate to 'http://testing.2growhr.io/' successfully
+
+20-03-2024T14:17:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/UserName"), username): Text 'Yashik' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+20-03-2024T14:17:15 - [MESSAGE][PASSED] - Text 'Yashik' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+20-03-2024T14:17:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/Password"), password): Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+20-03-2024T14:17:19 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+20-03-2024T14:17:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Password - view icon")): Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+20-03-2024T14:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+20-03-2024T14:17:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-03-2024T14:17:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-03-2024T14:17:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Login Button")): Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+20-03-2024T14:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+20-03-2024T14:17:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-03-2024T14:17:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-03-2024T14:17:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin button BR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button BR' is clicked on
+
+20-03-2024T14:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button BR' is clicked on
+
+20-03-2024T14:17:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin remark"), checkinRemark): Text 'CheckinRemark' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkin remark'
+
+20-03-2024T14:17:47 - [MESSAGE][PASSED] - Text 'CheckinRemark' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkin remark'
+
+20-03-2024T14:17:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-03-2024T14:17:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-03-2024T14:17:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin button AR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button AR' is clicked on
+
+20-03-2024T14:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button AR' is clicked on
+
+20-03-2024T14:17:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-03-2024T14:17:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-03-2024T14:17:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+20-03-2024T14:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+20-03-2024T14:17:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-03-2024T14:17:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-03-2024T14:17:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report' is clicked on
+
+20-03-2024T14:18:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report' is clicked on
+
+20-03-2024T14:18:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Date selection field")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field' is clicked on
+
+20-03-2024T14:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field' is clicked on
+
+20-03-2024T14:18:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Date selection field"), currentDateStr): Text '03/20/2024' is set on object 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field'
+
+20-03-2024T14:18:08 - [MESSAGE][PASSED] - Text '03/20/2024' is set on object 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field'
+
+20-03-2024T14:18:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-03-2024T14:18:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-03-2024T14:18:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Get Report button Day count attendance summary report")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Get Report button Day count attendance summary report' is clicked on
+
+20-03-2024T14:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Get Report button Day count attendance summary report' is clicked on
+
+20-03-2024T14:18:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_2GrowHr - Day Wise Report/Scroll to Page down"), 10): Scroll to object 'Object Repository/Page_2GrowHr - Day Wise Report/Scroll to Page down' successfully
+
+20-03-2024T14:18:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_2GrowHr - Day Wise Report/Scroll to Page down' successfully
+
+20-03-2024T14:18:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+20-03-2024T14:18:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+20-03-2024T14:18:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2024T14:18:19 - [MESSAGE][PASSED] - Browser is closed
+
+20-03-2024T14:18:19 - [TEST_STEP][PASSED] - url = Data.getValue("URL", i): null
+
+20-03-2024T14:18:19 - [TEST_STEP][PASSED] - username = Data.getValue("Username", i): null
+
+20-03-2024T14:18:19 - [TEST_STEP][PASSED] - password = Data.getValue("Password", i): null
+
+20-03-2024T14:18:19 - [TEST_STEP][PASSED] - checkinRemark = Data.getValue("CheckinRemark", i): null
+
+20-03-2024T14:18:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2024T14:18:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-03-2024T14:18:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2024T14:18:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2024T14:18:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-03-2024T14:18:20 - [MESSAGE][PASSED] - Current window maximized
+
+20-03-2024T14:18:20 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://testing.2growhr.io/' successfully
+
+20-03-2024T14:18:23 - [MESSAGE][PASSED] - Navigate to 'http://testing.2growhr.io/' successfully
+
+20-03-2024T14:18:23 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/UserName"), username): Unable to set text 'Farveen' of object 'Object Repository/Page_2GrowHR - Login/UserName' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Farveen' of object 'Object Repository/Page_2GrowHR - Login/UserName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Login and do checkin.run(Login and do checkin:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710924412228.run(TempTestSuite1710924412228.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_2GrowHR - Login/UserName' located by '//input[@id='UserName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1707823348564.run(Script1707823348564.groovy:49)
+	... 15 more
+)
+
+20-03-2024T14:18:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='UserName']'. Please recheck the objects properties to make sure the desired element is located. 
+
+20-03-2024T14:18:54 - [MESSAGE][FAILED] - Unable to set text 'Farveen' of object 'Object Repository/Page_2GrowHR - Login/UserName' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Farveen' of object 'Object Repository/Page_2GrowHR - Login/UserName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Login and do checkin.run(Login and do checkin:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710924412228.run(TempTestSuite1710924412228.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_2GrowHR - Login/UserName' located by '//input[@id='UserName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1707823348564.run(Script1707823348564.groovy:49)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\91957\\Desktop\\Automation Testing - Katalon\\Payroll Web\\Reports\\20240320_141651\\Login and Checkin\\20240320_141652\\1710924534798.png]]]]></system-out>
+         <system-err><![CDATA[20-03-2024T14:17:05 - [TEST_CASE][FAILED] - Test Cases/Login and do checkin: Test Cases/Login and do checkin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Farveen' of object 'Object Repository/Page_2GrowHR - Login/UserName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Login and do checkin.run(Login and do checkin:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710924412228.run(TempTestSuite1710924412228.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_2GrowHR - Login/UserName' located by '//input[@id='UserName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-03-2024T14:17:05 - [TEST_SUITE][FAILED] - Login and Checkin: Test Cases/Login and do checkin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Farveen' of object 'Object Repository/Page_2GrowHR - Login/UserName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Login and do checkin.run(Login and do checkin:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710924412228.run(TempTestSuite1710924412228.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_2GrowHR - Login/UserName' located by '//input[@id='UserName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[20-03-2024T14:17:05 - [TEST_SUITE][FAILED] - Login and Checkin: Test Cases/Login and do checkin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Farveen' of object 'Object Repository/Page_2GrowHR - Login/UserName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Login and do checkin.run(Login and do checkin:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710924412228.run(TempTestSuite1710924412228.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_2GrowHR - Login/UserName' located by '//input[@id='UserName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login and Checkin,Chrome 122.0.0.0,,,26-03-2024 10:00:50,26-03-2024 10:04:15,3m - 25.156s,PASSED
+,,,,,,,
+Test Cases/Login and do checkin,Chrome 122.0.0.0,,,26-03-2024 10:00:50,26-03-2024 10:04:15,3m - 24.999s,PASSED
+"Data = findTestData(""Login and Checkin"")",Chrome 122.0.0.0,,,26-03-2024 10:00:50,26-03-2024 10:00:51,0.448s,PASSED
+dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy),Chrome 122.0.0.0,,,26-03-2024 10:00:51,26-03-2024 10:00:51,0.016s,PASSED
+currentDate = getInstance().getTime(),Chrome 122.0.0.0,,,26-03-2024 10:00:51,26-03-2024 10:00:51,0.013s,PASSED
+currentDateStr = dateFormat.format(currentDate),Chrome 122.0.0.0,,,26-03-2024 10:00:51,26-03-2024 10:00:51,0.003s,PASSED
+"for ([i = 1, i <= Data.getRowNumbers(), (i++)])",Chrome 122.0.0.0,,,26-03-2024 10:00:51,26-03-2024 10:04:15,3m - 24.117s,PASSED

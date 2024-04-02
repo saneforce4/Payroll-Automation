@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Day Count Attendance Summary report</name>
+   <tag></tag>
+   <elementGuidId>7e71fd5e-aeeb-45d4-933a-850687d3c8c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.Employee_14.nav-item.align-items-start > #submenu</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@id='submenu'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a81b661c-6107-4c0d-8c4a-ac009a5400c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/Report/DayCountRealTimeReport</value>
+      <webElementGuid>ba133ba4-5040-49a6-8c06-b6fa38276aa7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link</value>
+      <webElementGuid>d384ea27-07b4-4f9b-8f42-3f4eeafc8f5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-key</name>
+      <type>Main</type>
+      <value>t-day_count</value>
+      <webElementGuid>05292755-7c9b-4141-ab90-8b3d74548c70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>submenu</value>
+      <webElementGuid>8e61c8d9-69de-4daf-a212-2444a8027373</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Day Count Attendance Summary</value>
+      <webElementGuid>92378e38-dd6b-4b6b-bba5-16f6b6493245</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebarApps&quot;)/ul[@class=&quot;nav nav-sm flex-column submenu_align&quot;]/li[@class=&quot;Employee_14 nav-item align-items-start&quot;]/a[@id=&quot;submenu&quot;]</value>
+      <webElementGuid>589fb4f1-3cd3-422e-bdc6-269048347ea0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@id='submenu'])[4]</value>
+      <webElementGuid>3a10e0e6-b7c7-45c0-82e4-a75880fb18ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebarApps']/ul/li[4]/a</value>
+      <webElementGuid>ada0e02e-b39e-41fe-a773-8865c15e6f8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Day Count Attendance Summary')]</value>
+      <webElementGuid>4ba5892e-3d67-4bb9-a00f-1b09639e3dda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shift Mapping'])[2]/following::a[1]</value>
+      <webElementGuid>ab3c9f59-8f85-43c6-aaac-547c99402508</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='General Attendance Summary'])[1]/following::a[2]</value>
+      <webElementGuid>b509274d-911c-4623-b394-aaa1bf9ace53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detailed Attendance Summary'])[1]/preceding::a[1]</value>
+      <webElementGuid>05201186-3803-4201-8433-780bbb01b8a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Attendance'])[1]/preceding::a[2]</value>
+      <webElementGuid>6121c019-de3c-447b-8831-fc9dc3aab14d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Day Count Attendance Summary']/parent::*</value>
+      <webElementGuid>daa6583f-d072-4d9c-8fae-b59e972ec373</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/Report/DayCountRealTimeReport')]</value>
+      <webElementGuid>c97c33d0-8c36-439c-9c3e-f453f831fc5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/div/ul/li[4]/a</value>
+      <webElementGuid>21d56192-ec77-468c-8bc1-a62362e7e860</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/Report/DayCountRealTimeReport' and @id = 'submenu' and (text() = ' Day Count Attendance Summary' or . = ' Day Count Attendance Summary')]</value>
+      <webElementGuid>e738e1f2-296b-48dd-8063-36903e207f97</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

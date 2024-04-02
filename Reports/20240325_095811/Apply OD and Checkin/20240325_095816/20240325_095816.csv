@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Apply OD and Checkin,Chrome 122.0.0.0,,,25-03-2024 10:05:17,25-03-2024 10:08:15,2m - 58.670s,PASSED
+,,,,,,,
+Test Cases/Apply OD and Checkin,Chrome 122.0.0.0,,,25-03-2024 10:05:17,25-03-2024 10:08:15,2m - 58.460s,PASSED
+"Data = findTestData(""Apply OD and Checkin"")",Chrome 122.0.0.0,,,25-03-2024 10:05:18,25-03-2024 10:05:18,0.501s,PASSED
+dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy),Chrome 122.0.0.0,,,25-03-2024 10:05:18,25-03-2024 10:05:18,0.020s,PASSED
+currentDate = getInstance().getTime(),Chrome 122.0.0.0,,,25-03-2024 10:05:18,25-03-2024 10:05:18,0.012s,PASSED
+currentDateStr = dateFormat.format(currentDate),Chrome 122.0.0.0,,,25-03-2024 10:05:18,25-03-2024 10:05:18,0.003s,PASSED
+"for ([i = 1, i <= Data.getRowNumbers(), (i++)])",Chrome 122.0.0.0,,,25-03-2024 10:05:18,25-03-2024 10:08:15,2m - 57.312s,PASSED

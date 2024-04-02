@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login and do checkin,Chrome 121.0.0.0,,,15-02-2024 10:14:14,15-02-2024 10:20:28,6m - 13.941s,PASSED
+,,,,,,,
+Test Cases/Login and do checkin,Chrome 121.0.0.0,,,15-02-2024 10:14:14,15-02-2024 10:20:28,6m - 13.652s,PASSED
+"Data = findTestData(""Login and Checkin"")",Chrome 121.0.0.0,,,15-02-2024 10:14:15,15-02-2024 10:14:16,0.675s,PASSED
+"for ([i = 1, i <= Data.getRowNumbers(), (i++)])",Chrome 121.0.0.0,,,15-02-2024 10:14:16,15-02-2024 10:20:28,6m - 12.309s,PASSED

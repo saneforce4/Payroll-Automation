@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Daily login and logout" time="750.61" tests="2" failures="1" errors="0">
+   <testsuite name="Login and do checkin" tests="1" failures="0" errors="0" time="411.209" skipped="0" timestamp="15-02-2024T17:29:26" hostname="91957 - Lead-Force-CRM" id="Test Suites/Login and do checkin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\91957\\Desktop\\Automation Testing - Katalon\\Payroll Web\\Reports\\20240215_172910\\Login and do checkin\\20240215_172911"/>
+         <property name="logFiles" value="C:\\Users\\91957\\Desktop\\Automation Testing - Katalon\\Payroll Web\\Reports\\20240215_172910\\Login and do checkin\\20240215_172911\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="91957 - Lead-Force-CRM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.70"/>
+         <property name="sessionId" value="d9e10bfea04a94c439f6f25b9766286f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login and do checkin" time="411.043" classname="Test Cases/Login and do checkin" status="PASSED">
+         <system-out><![CDATA[15-02-2024T17:29:26 - [TEST_CASE][PASSED] - Test Cases/Login and do checkin: Test Cases/Login and do checkin
+
+15-02-2024T17:29:26 - [TEST_STEP][PASSED] - Data = findTestData("Login and Checkin"): null
+
+15-02-2024T17:29:27 - [TEST_STEP][PASSED] - dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy): null
+
+15-02-2024T17:29:27 - [TEST_STEP][PASSED] - currentDate = getInstance().getTime(): null
+
+15-02-2024T17:29:27 - [TEST_STEP][PASSED] - currentDateStr = dateFormat.format(currentDate): null
+
+15-02-2024T17:29:27 - [TEST_STEP][PASSED] - for ([i = 1, i <= Data.getRowNumbers(), (i++)]): Object: 'Object Repository/Page_2GrowHr - Dashboard/Logout button' is clicked on
+
+15-02-2024T17:29:27 - [TEST_STEP][PASSED] - url = Data.getValue("URL", i): null
+
+15-02-2024T17:29:27 - [TEST_STEP][PASSED] - username = Data.getValue("Username", i): null
+
+15-02-2024T17:29:27 - [TEST_STEP][PASSED] - password = Data.getValue("Password", i): null
+
+15-02-2024T17:29:27 - [TEST_STEP][PASSED] - checkinRemark = Data.getValue("CheckinRemark", i): null
+
+15-02-2024T17:29:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-02-2024T17:29:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2024T17:29:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2024T17:29:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2024T17:29:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-02-2024T17:29:29 - [MESSAGE][PASSED] - Current window maximized
+
+15-02-2024T17:29:29 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://testing.2growhr.io/' successfully
+
+15-02-2024T17:29:34 - [MESSAGE][PASSED] - Navigate to 'http://testing.2growhr.io/' successfully
+
+15-02-2024T17:29:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/UserName"), username): Text 'Yashik' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+15-02-2024T17:29:34 - [MESSAGE][PASSED] - Text 'Yashik' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+15-02-2024T17:29:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/Password"), password): Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+15-02-2024T17:29:35 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+15-02-2024T17:29:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Password - view icon")): Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+15-02-2024T17:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+15-02-2024T17:29:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-02-2024T17:29:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+15-02-2024T17:29:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Login Button")): Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+15-02-2024T17:29:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+15-02-2024T17:29:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:29:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:29:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin button BR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button BR' is clicked on
+
+15-02-2024T17:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button BR' is clicked on
+
+15-02-2024T17:29:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin remark"), checkinRemark): Text 'CheckinRemark' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkin remark'
+
+15-02-2024T17:29:55 - [MESSAGE][PASSED] - Text 'CheckinRemark' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkin remark'
+
+15-02-2024T17:29:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:29:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:29:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin button AR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button AR' is clicked on
+
+15-02-2024T17:29:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button AR' is clicked on
+
+15-02-2024T17:29:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+15-02-2024T17:30:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+15-02-2024T17:30:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+15-02-2024T17:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+15-02-2024T17:30:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:30:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:30:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report' is clicked on
+
+15-02-2024T17:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report' is clicked on
+
+15-02-2024T17:30:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Date selection field")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field' is clicked on
+
+15-02-2024T17:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field' is clicked on
+
+15-02-2024T17:30:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Date selection field"), currentDateStr): Text '02/15/2024' is set on object 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field'
+
+15-02-2024T17:30:12 - [MESSAGE][PASSED] - Text '02/15/2024' is set on object 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field'
+
+15-02-2024T17:30:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:30:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:30:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Get Report button")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Get Report button' is clicked on
+
+15-02-2024T17:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Get Report button' is clicked on
+
+15-02-2024T17:30:15 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+15-02-2024T17:30:30 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+15-02-2024T17:30:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Logout button")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Logout button' is clicked on
+
+15-02-2024T17:30:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Logout button' is clicked on
+
+15-02-2024T17:30:48 - [TEST_STEP][PASSED] - url = Data.getValue("URL", i): null
+
+15-02-2024T17:30:48 - [TEST_STEP][PASSED] - username = Data.getValue("Username", i): null
+
+15-02-2024T17:30:48 - [TEST_STEP][PASSED] - password = Data.getValue("Password", i): null
+
+15-02-2024T17:30:48 - [TEST_STEP][PASSED] - checkinRemark = Data.getValue("CheckinRemark", i): null
+
+15-02-2024T17:30:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-02-2024T17:30:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-02-2024T17:30:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2024T17:30:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2024T17:30:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2024T17:30:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-02-2024T17:30:49 - [MESSAGE][PASSED] - Current window maximized
+
+15-02-2024T17:30:49 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://testing.2growhr.io/' successfully
+
+15-02-2024T17:30:53 - [MESSAGE][PASSED] - Navigate to 'http://testing.2growhr.io/' successfully
+
+15-02-2024T17:30:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/UserName"), username): Text 'Farveen' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+15-02-2024T17:30:54 - [MESSAGE][PASSED] - Text 'Farveen' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+15-02-2024T17:30:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/Password"), password): Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+15-02-2024T17:30:55 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+15-02-2024T17:30:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Password - view icon")): Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+15-02-2024T17:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+15-02-2024T17:30:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-02-2024T17:30:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+15-02-2024T17:30:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Login Button")): Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+15-02-2024T17:31:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+15-02-2024T17:31:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:31:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:31:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin button BR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button BR' is clicked on
+
+15-02-2024T17:31:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button BR' is clicked on
+
+15-02-2024T17:31:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin remark"), checkinRemark): Text 'CheckinRemark' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkin remark'
+
+15-02-2024T17:31:27 - [MESSAGE][PASSED] - Text 'CheckinRemark' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkin remark'
+
+15-02-2024T17:31:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:31:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:31:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin button AR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button AR' is clicked on
+
+15-02-2024T17:31:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button AR' is clicked on
+
+15-02-2024T17:31:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+15-02-2024T17:31:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+15-02-2024T17:31:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+15-02-2024T17:31:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+15-02-2024T17:31:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:31:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:31:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report' is clicked on
+
+15-02-2024T17:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report' is clicked on
+
+15-02-2024T17:31:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Date selection field")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field' is clicked on
+
+15-02-2024T17:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field' is clicked on
+
+15-02-2024T17:31:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Date selection field"), currentDateStr): Text '02/15/2024' is set on object 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field'
+
+15-02-2024T17:31:43 - [MESSAGE][PASSED] - Text '02/15/2024' is set on object 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field'
+
+15-02-2024T17:31:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:31:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:31:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Get Report button")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Get Report button' is clicked on
+
+15-02-2024T17:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Get Report button' is clicked on
+
+15-02-2024T17:31:47 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+15-02-2024T17:32:02 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+15-02-2024T17:32:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Logout button")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Logout button' is clicked on
+
+15-02-2024T17:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Logout button' is clicked on
+
+15-02-2024T17:32:03 - [TEST_STEP][PASSED] - url = Data.getValue("URL", i): null
+
+15-02-2024T17:32:03 - [TEST_STEP][PASSED] - username = Data.getValue("Username", i): null
+
+15-02-2024T17:32:03 - [TEST_STEP][PASSED] - password = Data.getValue("Password", i): null
+
+15-02-2024T17:32:03 - [TEST_STEP][PASSED] - checkinRemark = Data.getValue("CheckinRemark", i): null
+
+15-02-2024T17:32:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-02-2024T17:32:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-02-2024T17:32:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2024T17:32:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2024T17:32:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2024T17:32:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-02-2024T17:32:04 - [MESSAGE][PASSED] - Current window maximized
+
+15-02-2024T17:32:04 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://testing.2growhr.io/' successfully
+
+15-02-2024T17:32:12 - [MESSAGE][PASSED] - Navigate to 'http://testing.2growhr.io/' successfully
+
+15-02-2024T17:32:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/UserName"), username): Text 'CBS2227' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+15-02-2024T17:32:13 - [MESSAGE][PASSED] - Text 'CBS2227' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+15-02-2024T17:32:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/Password"), password): Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+15-02-2024T17:32:13 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+15-02-2024T17:32:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Password - view icon")): Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+15-02-2024T17:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+15-02-2024T17:32:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-02-2024T17:32:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+15-02-2024T17:32:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Login Button")): Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+15-02-2024T17:32:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+15-02-2024T17:32:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:32:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin button BR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button BR' is clicked on
+
+15-02-2024T17:32:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button BR' is clicked on
+
+15-02-2024T17:32:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin remark"), checkinRemark): Text 'CheckinRemark' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkin remark'
+
+15-02-2024T17:32:30 - [MESSAGE][PASSED] - Text 'CheckinRemark' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkin remark'
+
+15-02-2024T17:32:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:32:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:32:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin button AR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button AR' is clicked on
+
+15-02-2024T17:32:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button AR' is clicked on
+
+15-02-2024T17:32:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+15-02-2024T17:32:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+15-02-2024T17:32:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+15-02-2024T17:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+15-02-2024T17:32:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:32:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:32:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report' is clicked on
+
+15-02-2024T17:32:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report' is clicked on
+
+15-02-2024T17:32:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Date selection field")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field' is clicked on
+
+15-02-2024T17:32:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field' is clicked on
+
+15-02-2024T17:32:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Date selection field"), currentDateStr): Text '02/15/2024' is set on object 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field'
+
+15-02-2024T17:32:48 - [MESSAGE][PASSED] - Text '02/15/2024' is set on object 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field'
+
+15-02-2024T17:32:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:32:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:32:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Get Report button")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Get Report button' is clicked on
+
+15-02-2024T17:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Get Report button' is clicked on
+
+15-02-2024T17:32:51 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+15-02-2024T17:33:06 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+15-02-2024T17:33:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Logout button")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Logout button' is clicked on
+
+15-02-2024T17:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Logout button' is clicked on
+
+15-02-2024T17:33:07 - [TEST_STEP][PASSED] - url = Data.getValue("URL", i): null
+
+15-02-2024T17:33:07 - [TEST_STEP][PASSED] - username = Data.getValue("Username", i): null
+
+15-02-2024T17:33:07 - [TEST_STEP][PASSED] - password = Data.getValue("Password", i): null
+
+15-02-2024T17:33:07 - [TEST_STEP][PASSED] - checkinRemark = Data.getValue("CheckinRemark", i): null
+
+15-02-2024T17:33:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-02-2024T17:33:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-02-2024T17:33:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2024T17:33:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2024T17:33:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2024T17:33:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-02-2024T17:33:08 - [MESSAGE][PASSED] - Current window maximized
+
+15-02-2024T17:33:09 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://testing.2growhr.io/' successfully
+
+15-02-2024T17:33:13 - [MESSAGE][PASSED] - Navigate to 'http://testing.2growhr.io/' successfully
+
+15-02-2024T17:33:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/UserName"), username): Text 'CBS2155' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+15-02-2024T17:33:13 - [MESSAGE][PASSED] - Text 'CBS2155' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+15-02-2024T17:33:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/Password"), password): Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+15-02-2024T17:33:14 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+15-02-2024T17:33:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Password - view icon")): Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+15-02-2024T17:33:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+15-02-2024T17:33:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-02-2024T17:33:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+15-02-2024T17:33:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Login Button")): Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+15-02-2024T17:33:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+15-02-2024T17:33:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:33:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:33:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin button BR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button BR' is clicked on
+
+15-02-2024T17:33:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button BR' is clicked on
+
+15-02-2024T17:33:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin remark"), checkinRemark): Text 'CheckinRemark' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkin remark'
+
+15-02-2024T17:33:32 - [MESSAGE][PASSED] - Text 'CheckinRemark' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkin remark'
+
+15-02-2024T17:33:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:33:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:33:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin button AR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button AR' is clicked on
+
+15-02-2024T17:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button AR' is clicked on
+
+15-02-2024T17:33:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+15-02-2024T17:33:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+15-02-2024T17:33:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+15-02-2024T17:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+15-02-2024T17:33:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:33:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:33:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report' is clicked on
+
+15-02-2024T17:33:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report' is clicked on
+
+15-02-2024T17:33:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Date selection field")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field' is clicked on
+
+15-02-2024T17:33:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field' is clicked on
+
+15-02-2024T17:33:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Date selection field"), currentDateStr): Text '02/15/2024' is set on object 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field'
+
+15-02-2024T17:33:49 - [MESSAGE][PASSED] - Text '02/15/2024' is set on object 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field'
+
+15-02-2024T17:33:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:33:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:33:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Get Report button")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Get Report button' is clicked on
+
+15-02-2024T17:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Get Report button' is clicked on
+
+15-02-2024T17:33:52 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+15-02-2024T17:34:08 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+15-02-2024T17:34:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Logout button")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Logout button' is clicked on
+
+15-02-2024T17:34:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Logout button' is clicked on
+
+15-02-2024T17:34:09 - [TEST_STEP][PASSED] - url = Data.getValue("URL", i): null
+
+15-02-2024T17:34:09 - [TEST_STEP][PASSED] - username = Data.getValue("Username", i): null
+
+15-02-2024T17:34:09 - [TEST_STEP][PASSED] - password = Data.getValue("Password", i): null
+
+15-02-2024T17:34:09 - [TEST_STEP][PASSED] - checkinRemark = Data.getValue("CheckinRemark", i): null
+
+15-02-2024T17:34:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-02-2024T17:34:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-02-2024T17:34:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2024T17:34:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2024T17:34:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2024T17:34:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-02-2024T17:34:10 - [MESSAGE][PASSED] - Current window maximized
+
+15-02-2024T17:34:10 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://testing.2growhr.io/' successfully
+
+15-02-2024T17:34:14 - [MESSAGE][PASSED] - Navigate to 'http://testing.2growhr.io/' successfully
+
+15-02-2024T17:34:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/UserName"), username): Text 'CBS0761' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+15-02-2024T17:34:15 - [MESSAGE][PASSED] - Text 'CBS0761' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+15-02-2024T17:34:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/Password"), password): Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+15-02-2024T17:34:15 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+15-02-2024T17:34:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Password - view icon")): Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+15-02-2024T17:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+15-02-2024T17:34:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-02-2024T17:34:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+15-02-2024T17:34:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Login Button")): Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+15-02-2024T17:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+15-02-2024T17:34:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:34:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:34:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin button BR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button BR' is clicked on
+
+15-02-2024T17:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button BR' is clicked on
+
+15-02-2024T17:34:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin remark"), checkinRemark): Text 'CheckinRemark' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkin remark'
+
+15-02-2024T17:34:34 - [MESSAGE][PASSED] - Text 'CheckinRemark' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkin remark'
+
+15-02-2024T17:34:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:34:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:34:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin button AR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button AR' is clicked on
+
+15-02-2024T17:34:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button AR' is clicked on
+
+15-02-2024T17:34:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+15-02-2024T17:34:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+15-02-2024T17:34:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+15-02-2024T17:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+15-02-2024T17:34:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:34:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:34:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report' is clicked on
+
+15-02-2024T17:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report' is clicked on
+
+15-02-2024T17:34:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Date selection field")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field' is clicked on
+
+15-02-2024T17:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field' is clicked on
+
+15-02-2024T17:34:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Date selection field"), currentDateStr): Text '02/15/2024' is set on object 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field'
+
+15-02-2024T17:34:51 - [MESSAGE][PASSED] - Text '02/15/2024' is set on object 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field'
+
+15-02-2024T17:34:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:34:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:34:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Get Report button")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Get Report button' is clicked on
+
+15-02-2024T17:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Get Report button' is clicked on
+
+15-02-2024T17:34:55 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+15-02-2024T17:35:10 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+15-02-2024T17:35:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Logout button")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Logout button' is clicked on
+
+15-02-2024T17:35:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Logout button' is clicked on
+
+15-02-2024T17:35:11 - [TEST_STEP][PASSED] - url = Data.getValue("URL", i): null
+
+15-02-2024T17:35:11 - [TEST_STEP][PASSED] - username = Data.getValue("Username", i): null
+
+15-02-2024T17:35:11 - [TEST_STEP][PASSED] - password = Data.getValue("Password", i): null
+
+15-02-2024T17:35:11 - [TEST_STEP][PASSED] - checkinRemark = Data.getValue("CheckinRemark", i): null
+
+15-02-2024T17:35:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-02-2024T17:35:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-02-2024T17:35:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2024T17:35:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2024T17:35:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2024T17:35:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-02-2024T17:35:13 - [MESSAGE][PASSED] - Current window maximized
+
+15-02-2024T17:35:13 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://testing.2growhr.io/' successfully
+
+15-02-2024T17:35:17 - [MESSAGE][PASSED] - Navigate to 'http://testing.2growhr.io/' successfully
+
+15-02-2024T17:35:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/UserName"), username): Text 'CBS0952' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+15-02-2024T17:35:18 - [MESSAGE][PASSED] - Text 'CBS0952' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+15-02-2024T17:35:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/Password"), password): Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+15-02-2024T17:35:18 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+15-02-2024T17:35:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Password - view icon")): Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+15-02-2024T17:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+15-02-2024T17:35:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-02-2024T17:35:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+15-02-2024T17:35:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Login Button")): Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+15-02-2024T17:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+15-02-2024T17:35:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:35:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:35:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin button BR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button BR' is clicked on
+
+15-02-2024T17:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button BR' is clicked on
+
+15-02-2024T17:35:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin remark"), checkinRemark): Text 'CheckinRemark' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkin remark'
+
+15-02-2024T17:35:42 - [MESSAGE][PASSED] - Text 'CheckinRemark' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkin remark'
+
+15-02-2024T17:35:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:35:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:35:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkin button AR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button AR' is clicked on
+
+15-02-2024T17:35:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Checkin button AR' is clicked on
+
+15-02-2024T17:35:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+15-02-2024T17:35:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+15-02-2024T17:35:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+15-02-2024T17:35:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+15-02-2024T17:35:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:35:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:35:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report' is clicked on
+
+15-02-2024T17:35:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report' is clicked on
+
+15-02-2024T17:35:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Date selection field")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field' is clicked on
+
+15-02-2024T17:35:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field' is clicked on
+
+15-02-2024T17:35:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Date selection field"), currentDateStr): Text '02/15/2024' is set on object 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field'
+
+15-02-2024T17:35:58 - [MESSAGE][PASSED] - Text '02/15/2024' is set on object 'Object Repository/Page_2GrowHr - Menu_Report/Date selection field'
+
+15-02-2024T17:35:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:36:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:36:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Get Report button")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Get Report button' is clicked on
+
+15-02-2024T17:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Get Report button' is clicked on
+
+15-02-2024T17:36:01 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+15-02-2024T17:36:16 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+15-02-2024T17:36:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Logout button")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Logout button' is clicked on
+
+15-02-2024T17:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Logout button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-02-2024T17:29:26 - [TEST_SUITE][PASSED] - Login and do checkin: Test Cases/Login and do checkin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Checkout and do logout" tests="1" failures="1" errors="0" time="312.7" skipped="0" timestamp="15-02-2024T17:36:28" hostname="91957 - Lead-Force-CRM" id="Test Suites/Checkout and do logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\91957\\Desktop\\Automation Testing - Katalon\\Payroll Web\\Reports\\20240215_172910\\Checkout and do logout\\20240215_172913"/>
+         <property name="logFiles" value="C:\\Users\\91957\\Desktop\\Automation Testing - Katalon\\Payroll Web\\Reports\\20240215_172910\\Checkout and do logout\\20240215_172913\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\91957\\Desktop\\Automation Testing - Katalon\\Payroll Web\\Reports\\20240215_172910\\Checkout and do logout\\20240215_172913\\1707999023400.png, C:\\Users\\91957\\Desktop\\Automation Testing - Katalon\\Payroll Web\\Reports\\20240215_172910\\Checkout and do logout\\20240215_172913\\1707999048175.png, C:\\Users\\91957\\Desktop\\Automation Testing - Katalon\\Payroll Web\\Reports\\20240215_172910\\Checkout and do logout\\20240215_172913\\1707999072245.png, C:\\Users\\91957\\Desktop\\Automation Testing - Katalon\\Payroll Web\\Reports\\20240215_172910\\Checkout and do logout\\20240215_172913\\1707999100813.png"/>
+         <property name="hostName" value="91957 - Lead-Force-CRM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.70"/>
+         <property name="sessionId" value="e65973a4a7cbbc3c7a28dd0c2abb48ee"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Checkout and do Logout" time="28.508" classname="Test Cases/Checkout and do Logout" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Checkout and do Logout FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_2GrowHr - Dashboard/Check-Out button BR'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at Checkout and do Logout.run(Checkout and do Logout:59)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1707998353387.run(TempTestSuite1707998353387.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable&#xa;  (Session info: chrome=121.0.6167.184)&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'LEAD-FORCE-CRM', ip: '192.168.29.70', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\91957\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54656}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: e65973a4a7cbbc3c7a28dd0c2abb48ee&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[15-02-2024T17:41:12 - [TEST_CASE][FAILED] - Test Cases/Checkout and do Logout: Test Cases/Checkout and do Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_2GrowHr - Dashboard/Check-Out button BR'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Checkout and do Logout.run(Checkout and do Logout:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707998353387.run(TempTestSuite1707998353387.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.184)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LEAD-FORCE-CRM', ip: '192.168.29.70', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\91957\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54656}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e65973a4a7cbbc3c7a28dd0c2abb48ee
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+15-02-2024T17:41:12 - [TEST_STEP][PASSED] - Data = findTestData("Checkout and do logout"): null
+
+15-02-2024T17:41:12 - [TEST_STEP][PASSED] - dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy): null
+
+15-02-2024T17:41:12 - [TEST_STEP][PASSED] - currentDate = getInstance().getTime(): null
+
+15-02-2024T17:41:12 - [TEST_STEP][PASSED] - currentDateStr = dateFormat.format(currentDate): null
+
+15-02-2024T17:41:12 - [TEST_STEP][FAILED] - for ([i = 1, i <= Data.getRowNumbers(), (i++)]): Unable to click on object 'Object Repository/Page_2GrowHr - Dashboard/Check-Out button BR' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_2GrowHr - Dashboard/Check-Out button BR'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Checkout and do Logout.run(Checkout and do Logout:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707998353387.run(TempTestSuite1707998353387.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.184)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LEAD-FORCE-CRM', ip: '192.168.29.70', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\91957\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54656}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e65973a4a7cbbc3c7a28dd0c2abb48ee
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1707824461087.run(Script1707824461087.groovy:59)
+	... 18 more
+)
+
+15-02-2024T17:41:12 - [TEST_STEP][PASSED] - url = Data.getValue("URL", i): null
+
+15-02-2024T17:41:12 - [TEST_STEP][PASSED] - username = Data.getValue("Username", i): null
+
+15-02-2024T17:41:12 - [TEST_STEP][PASSED] - password = Data.getValue("Password", i): null
+
+15-02-2024T17:41:12 - [TEST_STEP][PASSED] - checkoutRemark = Data.getValue("CheckoutRemark", i): null
+
+15-02-2024T17:41:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-02-2024T17:41:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-02-2024T17:41:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2024T17:41:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2024T17:41:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2024T17:41:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-02-2024T17:41:13 - [MESSAGE][PASSED] - Current window maximized
+
+15-02-2024T17:41:13 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://testing.2growhr.io/' successfully
+
+15-02-2024T17:41:19 - [MESSAGE][PASSED] - Navigate to 'http://testing.2growhr.io/' successfully
+
+15-02-2024T17:41:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/UserName"), username): Text 'Yashik' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+15-02-2024T17:41:20 - [MESSAGE][PASSED] - Text 'Yashik' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+15-02-2024T17:41:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/Password"), password): Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+15-02-2024T17:41:20 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+15-02-2024T17:41:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Password - view icon")): Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+15-02-2024T17:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+15-02-2024T17:41:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-02-2024T17:41:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+15-02-2024T17:41:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Login Button")): Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+15-02-2024T17:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+15-02-2024T17:41:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+15-02-2024T17:41:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+15-02-2024T17:41:40 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Check-Out button BR")): Unable to click on object 'Object Repository/Page_2GrowHr - Dashboard/Check-Out button BR' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_2GrowHr - Dashboard/Check-Out button BR'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Checkout and do Logout.run(Checkout and do Logout:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707998353387.run(TempTestSuite1707998353387.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.184)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LEAD-FORCE-CRM', ip: '192.168.29.70', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\91957\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54656}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e65973a4a7cbbc3c7a28dd0c2abb48ee
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1707824461087.run(Script1707824461087.groovy:59)
+	... 18 more
+)
+
+15-02-2024T17:41:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_2GrowHr - Dashboard/Check-Out button BR' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_2GrowHr - Dashboard/Check-Out button BR'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Checkout and do Logout.run(Checkout and do Logout:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707998353387.run(TempTestSuite1707998353387.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.184)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LEAD-FORCE-CRM', ip: '192.168.29.70', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\91957\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54656}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e65973a4a7cbbc3c7a28dd0c2abb48ee
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1707824461087.run(Script1707824461087.groovy:59)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\91957\\Desktop\\Automation Testing - Katalon\\Payroll Web\\Reports\\20240215_172910\\Checkout and do logout\\20240215_172913\\1707999100813.png]]]]></system-out>
+         <system-err><![CDATA[15-02-2024T17:41:12 - [TEST_CASE][FAILED] - Test Cases/Checkout and do Logout: Test Cases/Checkout and do Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_2GrowHr - Dashboard/Check-Out button BR'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Checkout and do Logout.run(Checkout and do Logout:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707998353387.run(TempTestSuite1707998353387.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.184)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LEAD-FORCE-CRM', ip: '192.168.29.70', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\91957\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54656}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e65973a4a7cbbc3c7a28dd0c2abb48ee
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-02-2024T17:36:28 - [TEST_SUITE][FAILED] - Checkout and do logout: Test Cases/Checkout and do Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Checkout and do Logout.run(Checkout and do Logout:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707998353387.run(TempTestSuite1707998353387.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.184)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LEAD-FORCE-CRM', ip: '192.168.29.70', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\91957\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f081af3765d9e59b22646e99633b36f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[15-02-2024T17:36:28 - [TEST_SUITE][FAILED] - Checkout and do logout: Test Cases/Checkout and do Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_2GrowHr - Menu_Report/General Attendance Summary - Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Checkout and do Logout.run(Checkout and do Logout:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707998353387.run(TempTestSuite1707998353387.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.184)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LEAD-FORCE-CRM', ip: '192.168.29.70', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\91957\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f081af3765d9e59b22646e99633b36f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Apply WFH and do Checkin,Chrome 122.0.0.0,,,29-02-2024 10:16:37,29-02-2024 10:19:06,2m - 28.959s,PASSED
+,,,,,,,
+Test Cases/Apply WFH and Checkin,Chrome 122.0.0.0,,,29-02-2024 10:16:37,29-02-2024 10:19:06,2m - 28.779s,PASSED
+"Data = findTestData(""Apply WFH and Checkin"")",Chrome 122.0.0.0,,,29-02-2024 10:16:38,29-02-2024 10:16:38,0.484s,PASSED
+dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy),Chrome 122.0.0.0,,,29-02-2024 10:16:38,29-02-2024 10:16:38,0.021s,PASSED
+currentDate = getInstance().getTime(),Chrome 122.0.0.0,,,29-02-2024 10:16:38,29-02-2024 10:16:38,0.015s,PASSED
+currentDateStr = dateFormat.format(currentDate),Chrome 122.0.0.0,,,29-02-2024 10:16:38,29-02-2024 10:16:38,0.004s,PASSED
+"for ([i = 1, i <= Data.getRowNumbers(), (i++)])",Chrome 122.0.0.0,,,29-02-2024 10:16:38,29-02-2024 10:19:06,2m - 27.828s,PASSED

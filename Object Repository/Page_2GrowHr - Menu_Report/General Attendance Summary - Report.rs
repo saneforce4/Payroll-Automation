@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>General Attendance Summary - Report</name>
+   <tag></tag>
+   <elementGuidId>25ad90c5-f4e3-447e-9d3f-79b7a55fa69c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@id='submenu'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.Employee_9.nav-item.align-items-start > #submenu</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2bf4d7c3-8fd7-4885-b734-a9c393133f53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/Report/GeneralAttendanceReport</value>
+      <webElementGuid>8b82dd87-3ccb-4955-b5bc-08241064aeca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link</value>
+      <webElementGuid>64d7e5b6-8384-4c2e-a287-b450ac90dc8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-key</name>
+      <type>Main</type>
+      <value>t-eshift</value>
+      <webElementGuid>6b4b9e31-09fa-4b49-87f4-f25be9991228</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>submenu</value>
+      <webElementGuid>6af91cc1-ea56-4477-8af1-0d5a0916bda7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> General Attendance Summary </value>
+      <webElementGuid>8fd72ff4-276b-4c10-a1f7-97496261bd72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebarApps&quot;)/ul[@class=&quot;nav nav-sm flex-column submenu_align&quot;]/li[@class=&quot;Employee_9 nav-item align-items-start&quot;]/a[@id=&quot;submenu&quot;]</value>
+      <webElementGuid>59007da6-a409-45e8-aa9e-12df486aca34</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@id='submenu'])[2]</value>
+      <webElementGuid>9360ce9b-c11b-454a-8da5-4f3dab9d155d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebarApps']/ul/li[2]/a</value>
+      <webElementGuid>a950edfd-f28e-4a3b-83c4-ce0d2e40c2fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'General Attendance Summary')]</value>
+      <webElementGuid>ceffc4a8-9250-4823-bf2f-9c4351e30114</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave'])[2]/following::a[1]</value>
+      <webElementGuid>07a20f35-be09-4836-acdf-a294d28b96b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reports'])[2]/following::a[3]</value>
+      <webElementGuid>42f2f66a-e9ae-422c-8bed-8242c76e35e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shift Mapping'])[2]/preceding::a[1]</value>
+      <webElementGuid>c54a6ee5-392e-4472-aa0a-3ed30afd6fb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Day Count Attendance Summary'])[1]/preceding::a[2]</value>
+      <webElementGuid>75554f1d-1d97-4c28-bb9e-193d9974ed40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='General Attendance Summary']/parent::*</value>
+      <webElementGuid>f9a04588-9378-477b-8831-6859b707d280</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/Report/GeneralAttendanceReport')])[2]</value>
+      <webElementGuid>b39afddc-dc0d-41d2-afcb-cd77f50618a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/div/ul/li[2]/a</value>
+      <webElementGuid>63753e1e-4310-4f07-a1d2-503e0a8acb14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/Report/GeneralAttendanceReport' and @id = 'submenu' and (text() = ' General Attendance Summary ' or . = ' General Attendance Summary ')]</value>
+      <webElementGuid>776f8db2-1e2c-4eee-9d72-8f1a3f04deab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

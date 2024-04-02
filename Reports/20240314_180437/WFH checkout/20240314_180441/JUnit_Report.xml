@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WFH checkout" time="127.429" tests="1" failures="0" errors="0">
+   <testsuite name="WFH checkout" tests="1" failures="0" errors="0" time="127.429" skipped="0" timestamp="14-03-2024T18:10:11" hostname="91957 - Lead-Force-CRM" id="Test Suites/WFH checkout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\91957\\Desktop\\Automation Testing - Katalon\\Payroll Web\\Reports\\20240314_180437\\WFH checkout\\20240314_180441"/>
+         <property name="logFiles" value="C:\\Users\\91957\\Desktop\\Automation Testing - Katalon\\Payroll Web\\Reports\\20240314_180437\\WFH checkout\\20240314_180441\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="91957 - Lead-Force-CRM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.70"/>
+         <property name="sessionId" value="ab632fda5bd693dc8977164c058d474d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/WFH Checkout" time="127.265" classname="Test Cases/WFH Checkout" status="PASSED">
+         <system-out><![CDATA[14-03-2024T18:10:12 - [TEST_CASE][PASSED] - Test Cases/WFH Checkout: Test Cases/WFH Checkout
+
+14-03-2024T18:10:12 - [TEST_STEP][PASSED] - Data = findTestData("WFH Checkout"): null
+
+14-03-2024T18:10:12 - [TEST_STEP][PASSED] - dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy): null
+
+14-03-2024T18:10:12 - [TEST_STEP][PASSED] - currentDate = getInstance().getTime(): null
+
+14-03-2024T18:10:12 - [TEST_STEP][PASSED] - currentDateStr = dateFormat.format(currentDate): null
+
+14-03-2024T18:10:12 - [TEST_STEP][PASSED] - for ([i = 1, i <= Data.getRowNumbers(), (i++)]): Browser is closed
+
+14-03-2024T18:10:12 - [TEST_STEP][PASSED] - url = Data.getValue("URL", i): null
+
+14-03-2024T18:10:13 - [TEST_STEP][PASSED] - username = Data.getValue("Username", i): null
+
+14-03-2024T18:10:13 - [TEST_STEP][PASSED] - password = Data.getValue("Password", i): null
+
+14-03-2024T18:10:13 - [TEST_STEP][PASSED] - checkoutRemark = Data.getValue("CheckoutRemark", i): null
+
+14-03-2024T18:10:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-03-2024T18:10:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-03-2024T18:10:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-03-2024T18:10:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-03-2024T18:10:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-03-2024T18:10:15 - [MESSAGE][PASSED] - Current window maximized
+
+14-03-2024T18:10:15 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://testing.2growhr.io/' successfully
+
+14-03-2024T18:10:17 - [MESSAGE][PASSED] - Navigate to 'http://testing.2growhr.io/' successfully
+
+14-03-2024T18:10:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/UserName"), username): Text 'Sathish238' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+14-03-2024T18:10:18 - [MESSAGE][PASSED] - Text 'Sathish238' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+14-03-2024T18:10:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/Password"), password): Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+14-03-2024T18:10:18 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+14-03-2024T18:10:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Password - view icon")): Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+14-03-2024T18:10:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+14-03-2024T18:10:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-03-2024T18:10:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-03-2024T18:10:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Login Button")): Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+14-03-2024T18:10:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+14-03-2024T18:10:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-03-2024T18:10:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-03-2024T18:10:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Check-Out button BR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Check-Out button BR' is clicked on
+
+14-03-2024T18:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Check-Out button BR' is clicked on
+
+14-03-2024T18:10:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkout Remarks"), checkoutRemark + " " + currentDateStr): Text 'WFH CheckoutRemark 03/14/2024' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkout Remarks'
+
+14-03-2024T18:10:34 - [MESSAGE][PASSED] - Text 'WFH CheckoutRemark 03/14/2024' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkout Remarks'
+
+14-03-2024T18:10:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-03-2024T18:10:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-03-2024T18:10:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Check-Out button AR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Check-Out button AR' is clicked on
+
+14-03-2024T18:10:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Check-Out button AR' is clicked on
+
+14-03-2024T18:10:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+14-03-2024T18:10:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+14-03-2024T18:10:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+14-03-2024T18:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+14-03-2024T18:10:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-03-2024T18:10:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-03-2024T18:10:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Day Count Attendance Summary report")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Day Count Attendance Summary report' is clicked on
+
+14-03-2024T18:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Day Count Attendance Summary report' is clicked on
+
+14-03-2024T18:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Real Time Report/Select Date range field day count attendance report")): Object: 'Object Repository/Page_2GrowHr - Real Time Report/Select Date range field day count attendance report' is clicked on
+
+14-03-2024T18:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Real Time Report/Select Date range field day count attendance report' is clicked on
+
+14-03-2024T18:10:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-03-2024T18:10:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-03-2024T18:10:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Real Time Report/Today")): Object: 'Object Repository/Page_2GrowHr - Real Time Report/Today' is clicked on
+
+14-03-2024T18:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Real Time Report/Today' is clicked on
+
+14-03-2024T18:10:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Real Time Report/Get Report button")): Object: 'Object Repository/Page_2GrowHr - Real Time Report/Get Report button' is clicked on
+
+14-03-2024T18:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Real Time Report/Get Report button' is clicked on
+
+14-03-2024T18:10:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-03-2024T18:10:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-03-2024T18:10:55 - [TEST_STEP][PASSED] - linkElement = getWebDriver().findElement(By.xpath("//*[@id="datatable"]/tbody/tr/td[2]/a")): null
+
+14-03-2024T18:10:56 - [TEST_STEP][PASSED] - linkElement.click(): null
+
+14-03-2024T18:10:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_2GrowHr - Real Time Report/Report scroll to Clock-Out IP"), 10): Scroll to object 'Object Repository/Page_2GrowHr - Real Time Report/Report scroll to Clock-Out IP' successfully
+
+14-03-2024T18:10:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_2GrowHr - Real Time Report/Report scroll to Clock-Out IP' successfully
+
+14-03-2024T18:10:57 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+14-03-2024T18:11:07 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+14-03-2024T18:11:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-03-2024T18:11:07 - [MESSAGE][PASSED] - Browser is closed
+
+14-03-2024T18:11:07 - [TEST_STEP][PASSED] - url = Data.getValue("URL", i): null
+
+14-03-2024T18:11:07 - [TEST_STEP][PASSED] - username = Data.getValue("Username", i): null
+
+14-03-2024T18:11:07 - [TEST_STEP][PASSED] - password = Data.getValue("Password", i): null
+
+14-03-2024T18:11:07 - [TEST_STEP][PASSED] - checkoutRemark = Data.getValue("CheckoutRemark", i): null
+
+14-03-2024T18:11:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-03-2024T18:11:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-03-2024T18:11:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-03-2024T18:11:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-03-2024T18:11:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-03-2024T18:11:08 - [MESSAGE][PASSED] - Current window maximized
+
+14-03-2024T18:11:08 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://testing.2growhr.io/' successfully
+
+14-03-2024T18:11:10 - [MESSAGE][PASSED] - Navigate to 'http://testing.2growhr.io/' successfully
+
+14-03-2024T18:11:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/UserName"), username): Text 'CBS0715' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+14-03-2024T18:11:11 - [MESSAGE][PASSED] - Text 'CBS0715' is set on object 'Object Repository/Page_2GrowHR - Login/UserName'
+
+14-03-2024T18:11:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHR - Login/Password"), password): Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+14-03-2024T18:11:11 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_2GrowHR - Login/Password'
+
+14-03-2024T18:11:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Password - view icon")): Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+14-03-2024T18:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Password - view icon' is clicked on
+
+14-03-2024T18:11:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-03-2024T18:11:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-03-2024T18:11:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHR - Login/Login Button")): Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+14-03-2024T18:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHR - Login/Login Button' is clicked on
+
+14-03-2024T18:11:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-03-2024T18:11:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-03-2024T18:11:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Check-Out button BR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Check-Out button BR' is clicked on
+
+14-03-2024T18:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Check-Out button BR' is clicked on
+
+14-03-2024T18:11:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Checkout Remarks"), checkoutRemark + " " + currentDateStr): Text 'WFH CheckoutRemark 03/14/2024' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkout Remarks'
+
+14-03-2024T18:11:33 - [MESSAGE][PASSED] - Text 'WFH CheckoutRemark 03/14/2024' is set on object 'Object Repository/Page_2GrowHr - Dashboard/Checkout Remarks'
+
+14-03-2024T18:11:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-03-2024T18:11:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-03-2024T18:11:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Dashboard/Check-Out button AR")): Object: 'Object Repository/Page_2GrowHr - Dashboard/Check-Out button AR' is clicked on
+
+14-03-2024T18:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Dashboard/Check-Out button AR' is clicked on
+
+14-03-2024T18:11:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+14-03-2024T18:11:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+14-03-2024T18:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+14-03-2024T18:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Attentance mouseover' is clicked on
+
+14-03-2024T18:11:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-03-2024T18:11:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-03-2024T18:11:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Menu_Report/Day Count Attendance Summary report")): Object: 'Object Repository/Page_2GrowHr - Menu_Report/Day Count Attendance Summary report' is clicked on
+
+14-03-2024T18:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Menu_Report/Day Count Attendance Summary report' is clicked on
+
+14-03-2024T18:11:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Real Time Report/Select Date range field day count attendance report")): Object: 'Object Repository/Page_2GrowHr - Real Time Report/Select Date range field day count attendance report' is clicked on
+
+14-03-2024T18:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Real Time Report/Select Date range field day count attendance report' is clicked on
+
+14-03-2024T18:11:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-03-2024T18:11:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-03-2024T18:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Real Time Report/Today")): Object: 'Object Repository/Page_2GrowHr - Real Time Report/Today' is clicked on
+
+14-03-2024T18:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Real Time Report/Today' is clicked on
+
+14-03-2024T18:12:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_2GrowHr - Real Time Report/Get Report button")): Object: 'Object Repository/Page_2GrowHr - Real Time Report/Get Report button' is clicked on
+
+14-03-2024T18:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_2GrowHr - Real Time Report/Get Report button' is clicked on
+
+14-03-2024T18:12:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-03-2024T18:12:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-03-2024T18:12:05 - [TEST_STEP][PASSED] - linkElement = getWebDriver().findElement(By.xpath("//*[@id="datatable"]/tbody/tr/td[2]/a")): null
+
+14-03-2024T18:12:07 - [TEST_STEP][PASSED] - linkElement.click(): null
+
+14-03-2024T18:12:07 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_2GrowHr - Real Time Report/Report scroll to Clock-Out IP"), 10): Scroll to object 'Object Repository/Page_2GrowHr - Real Time Report/Report scroll to Clock-Out IP' successfully
+
+14-03-2024T18:12:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_2GrowHr - Real Time Report/Report scroll to Clock-Out IP' successfully
+
+14-03-2024T18:12:09 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+14-03-2024T18:12:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+14-03-2024T18:12:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-03-2024T18:12:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-03-2024T18:10:11 - [TEST_SUITE][PASSED] - WFH checkout: Test Cases/WFH Checkout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

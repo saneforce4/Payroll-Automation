@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_OPEN</name>
+   <tag></tag>
+   <elementGuidId>2c1221ae-d402-48f5-9e84-1eb2f10dfd07</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.card_18.col-12.col-sm-6.col-md-6.col-lg-4.col-xl-3.reportcard > div.card > div.card-body.pt-0 > div.row > div.col-12.col-sm-4.text-end > a.btn.btn-outline-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='listContent']/div[8]/div/div[2]/div/div[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c6a82450-2966-4105-9ef6-8eff330c766e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/Report/GeneralAttendanceReport</value>
+      <webElementGuid>da440e0c-8276-409f-a2b8-6c1120ffa790</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-outline-primary</value>
+      <webElementGuid>991dbbe7-5168-4280-8d7a-83d225b60711</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OPEN</value>
+      <webElementGuid>66c55a7b-22c7-43b2-a295-4d004957fabf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;listContent&quot;)/div[@class=&quot;card_18 col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 reportcard&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body pt-0&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col-sm-4 text-end&quot;]/a[@class=&quot;btn btn-outline-primary&quot;]</value>
+      <webElementGuid>14754d27-ce77-4dad-a48c-c57e99a319fc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='listContent']/div[8]/div/div[2]/div/div[2]/a</value>
+      <webElementGuid>92e72e1d-596a-4dcc-8677-152cb3fbdfde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'OPEN')])[9]</value>
+      <webElementGuid>84949f99-6b1b-4cbc-adb3-7b99b7d60fd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='General Attendance Summary'])[1]/following::a[1]</value>
+      <webElementGuid>9cb93f8a-12a0-4778-95bd-991b9d8f7acc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OPEN'])[8]/following::a[1]</value>
+      <webElementGuid>bcfcb16b-810b-4a8c-be27-553288ff5550</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Day Count Attendance Summary'])[1]/preceding::a[1]</value>
+      <webElementGuid>bcacb92f-2c24-41f1-9d07-9c18e5b96c1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OPEN'])[10]/preceding::a[1]</value>
+      <webElementGuid>e31a0436-3d3c-4465-be4a-7e0bcbf3a54b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/Report/GeneralAttendanceReport')]</value>
+      <webElementGuid>6d3216fa-dfcb-4ff5-a9cf-f310c453eaf7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/div[2]/div/div[2]/a</value>
+      <webElementGuid>53d4d9df-757c-4c35-8267-5f4af8f60500</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/Report/GeneralAttendanceReport' and (text() = 'OPEN' or . = 'OPEN')]</value>
+      <webElementGuid>c6a1f09d-82e5-4c53-8b83-43d2459f5f6b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

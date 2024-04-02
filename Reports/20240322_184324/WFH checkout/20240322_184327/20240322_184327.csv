@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WFH checkout,Chrome 122.0.0.0,,,22-03-2024 18:44:34,22-03-2024 18:46:11,1m - 36.157s,FAILED
+,,,,,,,
+Test Cases/WFH Checkout,Chrome 122.0.0.0,,,22-03-2024 18:44:35,22-03-2024 18:46:11,1m - 35.982s,FAILED
+"Data = findTestData(""WFH Checkout"")",Chrome 122.0.0.0,,,22-03-2024 18:44:35,22-03-2024 18:44:36,0.427s,PASSED
+dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy),Chrome 122.0.0.0,,,22-03-2024 18:44:36,22-03-2024 18:44:36,0.011s,PASSED
+currentDate = getInstance().getTime(),Chrome 122.0.0.0,,,22-03-2024 18:44:36,22-03-2024 18:44:36,0.011s,PASSED
+currentDateStr = dateFormat.format(currentDate),Chrome 122.0.0.0,,,22-03-2024 18:44:36,22-03-2024 18:44:36,0.003s,PASSED
+"for ([i = 1, i <= Data.getRowNumbers(), (i++)])",Chrome 122.0.0.0,,,22-03-2024 18:44:36,22-03-2024 18:46:11,1m - 34.994s,FAILED

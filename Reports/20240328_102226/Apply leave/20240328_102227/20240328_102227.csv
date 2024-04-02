@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Apply leave,Chrome 123.0.0.0,,,28-03-2024 10:22:35,28-03-2024 10:25:40,3m - 5.499s,PASSED
+,,,,,,,
+Test Cases/Apply Full day Leave,Chrome 123.0.0.0,,,28-03-2024 10:22:35,28-03-2024 10:23:48,1m - 13.128s,PASSED
+"Data = findTestData(""Apply Full day Leave"")",Chrome 123.0.0.0,,,28-03-2024 10:22:36,28-03-2024 10:22:36,0.489s,PASSED
+dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy),Chrome 123.0.0.0,,,28-03-2024 10:22:36,28-03-2024 10:22:36,0.010s,PASSED
+currentDate = getInstance().getTime(),Chrome 123.0.0.0,,,28-03-2024 10:22:36,28-03-2024 10:22:36,0.027s,PASSED
+currentDateStr = dateFormat.format(currentDate),Chrome 123.0.0.0,,,28-03-2024 10:22:36,28-03-2024 10:22:36,0.003s,PASSED
+"for ([i = 1, i <= Data.getRowNumbers(), (i++)])",Chrome 123.0.0.0,,,28-03-2024 10:22:36,28-03-2024 10:23:48,1m - 12.092s,PASSED
+,,,,,,,
+Test Cases/Apply 1st half Leave,Chrome 123.0.0.0,,,28-03-2024 10:23:48,28-03-2024 10:24:42,53.877s,PASSED
+"Data = findTestData(""Apply 1st Half Leave"")",Chrome 123.0.0.0,,,28-03-2024 10:23:49,28-03-2024 10:23:49,0.081s,PASSED
+dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy),Chrome 123.0.0.0,,,28-03-2024 10:23:49,28-03-2024 10:23:49,0.000s,PASSED
+currentDate = getInstance().getTime(),Chrome 123.0.0.0,,,28-03-2024 10:23:49,28-03-2024 10:23:49,0.000s,PASSED
+currentDateStr = dateFormat.format(currentDate),Chrome 123.0.0.0,,,28-03-2024 10:23:49,28-03-2024 10:23:49,0.014s,PASSED
+"for ([i = 1, i <= Data.getRowNumbers(), (i++)])",Chrome 123.0.0.0,,,28-03-2024 10:23:49,28-03-2024 10:24:42,53.514s,PASSED
+,,,,,,,
+Test Cases/Apply 2nd Half Leave,Chrome 123.0.0.0,,,28-03-2024 10:24:42,28-03-2024 10:25:40,58.285s,PASSED
+"Data = findTestData(""Apply 2nd Half Leave"")",Chrome 123.0.0.0,,,28-03-2024 10:24:42,28-03-2024 10:24:42,0.036s,PASSED
+dateFormat = new java.text.SimpleDateFormat(MM/dd/yyyy),Chrome 123.0.0.0,,,28-03-2024 10:24:42,28-03-2024 10:24:42,0.002s,PASSED
+currentDate = getInstance().getTime(),Chrome 123.0.0.0,,,28-03-2024 10:24:42,28-03-2024 10:24:42,0.000s,PASSED
+currentDateStr = dateFormat.format(currentDate),Chrome 123.0.0.0,,,28-03-2024 10:24:42,28-03-2024 10:24:42,0.000s,PASSED
+"for ([i = 1, i <= Data.getRowNumbers(), (i++)])",Chrome 123.0.0.0,,,28-03-2024 10:24:42,28-03-2024 10:25:40,58.088s,PASSED
